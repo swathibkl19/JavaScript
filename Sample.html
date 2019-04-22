@@ -1,0 +1,17 @@
+<html>
+<title>JavaScript href vs onClick()</title>
+<script>
+    function myFunc() {
+        var v = 0;
+        for (var j=0; j<1000; j++) {
+            v+=j;
+        }
+        alert(v);
+    }
+</script>
+<a href="javascript:myFunc()">href</a>
+<a href="#" onclick="javascript:myFunc()">onclick</a>
+</head>
+<body>
+</body>
+</html>
